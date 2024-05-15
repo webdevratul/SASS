@@ -1,0 +1,30 @@
+// variable
+
+$font-family: Helvetica, sans-serif;
+$font-color: red;
+$font-size: 20px;
+
+// nesting
+.table {
+  h6 {
+    color: $font-color;
+    font-size: $font-size;
+    font-family: $font-family;
+  }
+}
+
+.nav-box {
+  nav {
+    ul {
+      display: flex;
+    }
+    li {
+      list-style: none;
+      padding: 0 10px;
+    }
+    a {
+      text-decoration: none;
+      font-size: $font-size;
+    }
+  }
+}
